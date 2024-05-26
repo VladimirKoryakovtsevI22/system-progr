@@ -18,7 +18,6 @@ public:
     ~Database();
 
     bool db_connect(const QString &dbName);
-    void commands_start();
 
 private:
     QSqlDatabase db;
